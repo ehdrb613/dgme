@@ -1,19 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>test</title>
-    <link rel="stylesheet" href="test.css">
+	<title>main</title>
+	<meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+       <meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+	<!--index 스타일 -->
+    <link href="css/index_style.css" rel="stylesheet" media="screen">
+
+	<!-- <script src=""></script> -->
 </head>
 <body>
-    <h1>아아아하</h1>
-    
-   
-        <div class="center">
-            <p>그렇쿤</p>
-        </div>
-    
+<div id="base">
+	<!--해더 시작-->
+	<header>
+		<div id="user_menu" >
+			<a href="#"><img src="img/usermenu.png" width="40px" height="40px"/></a>
+		</div>
+		<div id="main_rogo">
+		<img src="img/logo.png" />
+		</div>
+	</header>
+
+	<section>
+		<!--무료h진단-->
+		<div id="free_test_h" class="main_menu">
+			<a href="#"><p class="menu_name">무료 H 진단 바로가기</p></a>
+		</div>
+		<!--그림진단-->
+		<div id="draw_test" class="main_menu">
+			<a href="sub/그림진단.html"><p class="menu_name">그림 진단 바로가기</p></a>
+		</div>
+		<!--치료종류-->
+		<div id="cont_index" class="main_menu">
+			<a href="sub/치료종류.html"><p class="menu_name">치료 종류 바로가기</p></a>
+		</div>
+		<!--공지사항-->
+		<div id="notice_main" class="main_menu">
+			<a href="sub/공지사항.html"><p class="menu_name">공지 사항</p></a>
+		</div>
+		<!--고객센터-->
+		<div id="customer_center" class="main_menu">
+			<a href="sub/고객센터.html"><p class="menu_name">고객 센터</p></a>
+		</div>
+
+	</section>
+
+	<!--푸터시작-->
+	<footer>
+		<div id="call_number">
+			<p id="call">CALL CENTER</p> 
+			<p id="number">1588-9292</p>
+		</div>
+		<div id="time">	
+			<span id="time2">
+				<span id="time1">평일</span>
+				: 오전 09:00 ~ 오후 06 : 00
+			<br/>
+				<span id="time3">점심</span>
+				: 오후 12:00 ~ 오후 02 : 00
+			</span>
+			<div class="custom1">
+			<pre>전화문의가 많을 시 연결이 어려울 수 있습니다.
+<span>고객 센터</span> 바로가기를 이용하시면 보다 신속하고
+정확한 답변을 받으실 수 있습니다.</pre>
+			</div>
+		</div>
+	</footer>	
+</div>
 </body>
 </html>
