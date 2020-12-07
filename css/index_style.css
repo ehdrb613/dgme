@@ -1,6 +1,8 @@
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
 /*초기화*/
+*{ outline:none;
+-webkit-appearance:none; }
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -24,6 +26,7 @@ time, mark, audio, video {
 
 body {
     line-height:1;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 article,aside,details,figcaption,figure,
@@ -51,6 +54,7 @@ a {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
+    -webkit-tap-highlight-color:transparent;
 }
 
 /* change colours to suit your needs */
@@ -97,109 +101,112 @@ input, select {
 }
 /*초기화 끝*/
 
-		body{
-			margin:0 auto;
-			width:100%;
-			height:1300px;
-			font-family: 'Nanum Gothic', sans-serif;
-			background: url("../img/배경.jpg") no-repeat fixed;
-			background-size: cover;
-			box-sizing:border-box;
-
-		}
-		/*해더  부분*/
+/*해더  부분*/
 		header{
 			position:relative;
 			width: 100%;
 			height: auto;
 			box-sizing:border-box;
+			
+
 		}
 		header>#user_menu{
-			position: relative;
-			width: 30px;
-			height: 30px;
-			top: 5px;
-			left: 5px;
-			z-index: 100;
-			
+			list-style:none;
+		}
+		header>#user_menu>li{
+			display:inline-block;
+			vertical-align:middle;
+			padding:10px;
+		}
+		header>#user_menu>li:nth-child(2){
+			float:right;
+			height:auto;
+			padding:15px;
+			vertical-align:middle;
+		}
+		header .login_btn{
+			border:3px solid #fff;
+			padding:7px;
+			line-height:20px;
+			border-radius:10px;
+			background:none;
+			font-weight: 900;
+			font-size:1em;
+			color:#fff;
+
 		}
 		#main_rogo{
-     	margin: 25px 30px auto;
+     	margin:0 auto;
      	text-align:center;
      	box-sizing:border-box;
 		}
 		#main_rogo img{
-			width:100%;
+			width:90%;
 		}
+
+
 		/*세션 부분*/
 		section{
 			position: relative;
 			width: 100%;
 			margin:0 auto;
-			height: 710px;
+			height: 1310px;
 			bottom: 10px;
 			box-sizing:border-box;
 		}
+		/*세션 메인 매뉴*/
 		section>.main_menu{
-		
+			margin-top:3%;
 		}
 		section>.main_menu>a{
-			color: black;
 			text-decoration: none;
 		}
 		section>.main_menu>a>.menu_name{
 			text-align: center;
-			font-size: 30px;
+			font-size: 2em;
 			line-height: 120px;
-			color: white;
+			color:#222;
+			font-weight: 900;
+			text-shadow: 0 0 5px #fff;
 		}
 		section>#free_test_h{
 			width:100%;height:auto;
-			margin-top: 5px;
-			background-image: url("../img/h진단.jpg");
-			background-size: cover;
-			font-weight: 900;
-			text-shadow: 0 0 5px #868789;
-			box-sizing:border-box;
+			background-image: url("../img/menu1.png");
+			background-size:100% 100%;
 		}
 		section>#draw_test{
 			width:100%;height:auto;
-			margin-top: 5px;
-			background-image: url("../img/그림진단.jpg");
-			background-size: cover;
-			font-weight: 900;
-			text-shadow: 0 0 5px #868789;
-			box-sizing:border-box;
+			background-image: url("../img/menu2.png");
+			background-size:100% 100%;
 		}
 		section>#cont_index{
 			width:100%;height:auto;
-			margin-top: 5px;
-			background-image: url("../img/치료종류.jpg");
-			background-size: cover;
-			font-weight: 900;
-			text-shadow: 0 0 5px #868789;
-			box-sizing:border-box;
+			background-image: url("../img/menu3.png");
+			background-size:100% 100%;
+			
 		}
 		section>#notice_main{
 			width:100%;height:auto;
-			margin-top: 5px;
-			background-image: url("../img/공지사항.jpg");
-			background-size: cover;
-			font-weight: 900;
-			text-shadow: 0 0 5px #868789;
-			box-sizing:border-box;
+			background-image: url("../img/menu4.png");
+			background-size:100% 100%;
 		}
 		section>#customer_center{
 			width:100%;height:auto;
-			margin-top: 5px;
-			background-image: url("../img/고객센터.jpg");
-			background-size: cover;
-			font-weight: 900;
-			text-shadow: 0 0 5px #868789;
-			box-sizing:border-box;
+			background-image: url("../img/menu5.png");
+			background-size:100% 100%;
+		}
+
+		#swiper_space{
+			position:relative;
+			margin-top:30px;
+			width:100%;
+			height:600px;
+			text-align:center;
 		}
 		/*푸터 부분*/
 		footer{
+			position:relative;
+			margin-top:30px;
 			width: 100%;
 			height: 180px;
 			box-sizing:border-box;
@@ -209,35 +216,34 @@ input, select {
 			height: 100px;
 		}
 		footer>#call_number>#call{
-			position: relative;
 			margin-left:15px;
-			font-size: 16px;
+			font-size: 1em;
 			color: #101641;
 			top: 35px;
 			font-weight: 900;
 		}
 		footer>#call_number>#number{
 			margin-left:10px;
-			font-size: 30px;
+			font-size: 2em;
 			color: #cc460b;
 			font-weight: 900;
 		}
 		
 		footer #time #time1{
 			
-			font-size: 14px;
+			font-size: 1em;
 			color: #393939;
 			font-weight: 900;
 		}
 		footer #time #time2{
 			margin-left:10px;
-			font-size: 14px;
+			font-size: 1em;
 			color: #393939;
 		
 		}
 		footer #time #time3{
 			margin-left:10px;
-			font-size: 14px;
+			font-size: 1em;
 			color: #393939;
 			font-weight: 900;
 			
@@ -245,9 +251,61 @@ input, select {
 
 		.custom1{
 			margin-left:10px;
-			font-size:13px;
+			font-size:1em;
 		}
 		.custom1 span{
 			font-weight: 900;
 		}
+
+
+/*웹 화면*/
+        @media screen and (min-width:1050px){
+        	body{
+			margin:0 auto;
+			max-width:40%;
+			min-width:30%;
+			height:auto;
+			background: url("../img/bg.jpg") no-repeat fixed;
+			background-size: 40% 100%;
+			background-position:center;
+			box-sizing:border-box;
+
+		}
+			footer{
+			font-size:110%;
+		}
+	}
+
+ /*테블릿, 모바일 화면*/
+ @media screen and (min-width:500px) and (max-width:1050px){
+		body{
+			margin:0 auto;
+			width:85%;
+			height:auto;
+			background: url("../img/bg.jpg") no-repeat;
+			background-size: 100% 100%;
+			background-position:center;
+			box-sizing:border-box;
+			
+		}
+
+
+		
 }
+
+/*테블릿, 모바일 화면*/
+ @media screen and (max-width:500px){
+		body{
+			margin:0 auto;
+			width:100%;
+			height:auto;
+			background: url("../img/bg.jpg") no-repeat;
+			background-size: 100% 100%;
+			box-sizing:border-box;
+			
+		}
+
+
+		
+}
+
