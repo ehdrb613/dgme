@@ -22,7 +22,7 @@ namespace sample_login_form2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("안녕하세요");
+            MessageBox.Show("안녕하세요!!!");
         }
 
         private void button2_Click(object sender, EventArgs e)
