@@ -8,3 +8,5 @@ D:\DG\dgme\study\c#\sample_login_form2\sample_login_form2\obj\Release\sample_log
 D:\DG\dgme\study\c#\sample_login_form2\sample_login_form2\obj\Release\sample_login_form2.csproj.CoreCompileInputs.cache
 D:\DG\dgme\study\c#\sample_login_form2\sample_login_form2\obj\Release\sample_login_form2.exe
 D:\DG\dgme\study\c#\sample_login_form2\sample_login_form2\obj\Release\sample_login_form2.pdb
+D:\DG\dgme\study\c#\sample_login_form2\sample_login_form2\bin\Release\Bunifu_UI_v1.52.dll
+D:\DG\dgme\study\c#\sample_login_form2\sample_login_form2\obj\Release\sample_login_form2.csproj.CopyComplete
