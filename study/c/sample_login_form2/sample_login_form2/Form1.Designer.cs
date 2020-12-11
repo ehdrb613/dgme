@@ -30,6 +30,7 @@ namespace sample_login_form2
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -45,6 +46,11 @@ namespace sample_login_form2
             this.label_second2 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.aaa1 = new WindowsFormsControlLibrary1.aaa();
+            this.aaa2 = new WindowsFormsControlLibrary1.aaa();
+            this.aaa3 = new WindowsFormsControlLibrary1.aaa();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.bunifuTextbox1 = new ns1.BunifuTextbox();
             this.SuspendLayout();
             // 
             // button1
@@ -182,11 +188,54 @@ namespace sample_login_form2
             this.timer2.Interval = 1000;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
+            // aaa1
+            // 
+            this.aaa1.Location = new System.Drawing.Point(245, 227);
+            this.aaa1.Name = "aaa1";
+            this.aaa1.Size = new System.Drawing.Size(175, 138);
+            this.aaa1.TabIndex = 5;
+            // 
+            // aaa2
+            // 
+            this.aaa2.Location = new System.Drawing.Point(253, 235);
+            this.aaa2.Name = "aaa2";
+            this.aaa2.Size = new System.Drawing.Size(175, 138);
+            this.aaa2.TabIndex = 6;
+            // 
+            // aaa3
+            // 
+            this.aaa3.Location = new System.Drawing.Point(261, 243);
+            this.aaa3.Name = "aaa3";
+            this.aaa3.Size = new System.Drawing.Size(175, 138);
+            this.aaa3.TabIndex = 7;
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // bunifuTextbox1
+            // 
+            this.bunifuTextbox1.BackColor = System.Drawing.Color.Silver;
+            this.bunifuTextbox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox1.BackgroundImage")));
+            this.bunifuTextbox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuTextbox1.ForeColor = System.Drawing.Color.SeaGreen;
+            this.bunifuTextbox1.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox1.Icon")));
+            this.bunifuTextbox1.Location = new System.Drawing.Point(433, 155);
+            this.bunifuTextbox1.Name = "bunifuTextbox1";
+            this.bunifuTextbox1.Size = new System.Drawing.Size(292, 39);
+            this.bunifuTextbox1.TabIndex = 8;
+            this.bunifuTextbox1.text = "Bunifu TextBox";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.bunifuTextbox1);
+            this.Controls.Add(this.aaa3);
+            this.Controls.Add(this.aaa2);
+            this.Controls.Add(this.aaa1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label_second2);
             this.Controls.Add(this.label1);
@@ -224,6 +273,11 @@ namespace sample_login_form2
         private System.Windows.Forms.Label label_second2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Timer timer2;
+        private WindowsFormsControlLibrary1.aaa aaa1;
+        private WindowsFormsControlLibrary1.aaa aaa2;
+        private WindowsFormsControlLibrary1.aaa aaa3;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private ns1.BunifuTextbox bunifuTextbox1;
     }
 }
 
