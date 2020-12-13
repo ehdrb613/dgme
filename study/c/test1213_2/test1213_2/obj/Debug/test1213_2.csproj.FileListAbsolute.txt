@@ -1,0 +1,12 @@
+D:\study\dgme\study\c\test1213_2\test1213_2\bin\Debug\test1213_2.exe.config
+D:\study\dgme\study\c\test1213_2\test1213_2\bin\Debug\test1213_2.exe
+D:\study\dgme\study\c\test1213_2\test1213_2\bin\Debug\test1213_2.pdb
+D:\study\dgme\study\c\test1213_2\test1213_2\obj\Debug\test1213_2.Properties.Resources.resources
+D:\study\dgme\study\c\test1213_2\test1213_2\obj\Debug\test1213_2.csproj.GenerateResource.cache
+D:\study\dgme\study\c\test1213_2\test1213_2\obj\Debug\test1213_2.csproj.CoreCompileInputs.cache
+D:\study\dgme\study\c\test1213_2\test1213_2\obj\Debug\test1213_2.exe
+D:\study\dgme\study\c\test1213_2\test1213_2\obj\Debug\test1213_2.pdb
+D:\study\dgme\study\c\test1213_2\test1213_2\obj\Debug\test1213_2.Firstcustom.resources
+D:\study\dgme\study\c\test1213_2\test1213_2\obj\Debug\test1213_2.MySecondCus.resources
+D:\study\dgme\study\c\test1213_2\test1213_2\obj\Debug\test1213_2.csprojAssemblyReference.cache
+D:\study\dgme\study\c\test1213_2\test1213_2\obj\Debug\test1213_2.Form1.resources
