@@ -1,0 +1,11 @@
+D:\study\dgme\study\c\test1212\test1212\bin\Release\test1212.exe.config
+D:\study\dgme\study\c\test1212\test1212\bin\Release\test1212.exe
+D:\study\dgme\study\c\test1212\test1212\bin\Release\test1212.pdb
+D:\study\dgme\study\c\test1212\test1212\bin\Release\Bunifu_UI_v1.52.dll
+D:\study\dgme\study\c\test1212\test1212\obj\Release\test1212.Form1.resources
+D:\study\dgme\study\c\test1212\test1212\obj\Release\test1212.Properties.Resources.resources
+D:\study\dgme\study\c\test1212\test1212\obj\Release\test1212.csproj.GenerateResource.cache
+D:\study\dgme\study\c\test1212\test1212\obj\Release\test1212.csproj.CoreCompileInputs.cache
+D:\study\dgme\study\c\test1212\test1212\obj\Release\test1212.csproj.CopyComplete
+D:\study\dgme\study\c\test1212\test1212\obj\Release\test1212.exe
+D:\study\dgme\study\c\test1212\test1212\obj\Release\test1212.pdb
