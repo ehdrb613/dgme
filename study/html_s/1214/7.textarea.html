@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <textarea cols="50" rows="30">테스트</textarea>
+
+    <!-- textarea의 주의점
+    주의점 태그안의 공백들로도 모두 그대로 출력 -->
+
+    <textarea cols="50" rows="30">
+        테스트
+        테스트
+    </textarea>
+    <!-- &nbsp : 스페이스바 -->
+    <p>
+        테&nbsp&nbsp&nbsp&nbsp&nbsp스트<br>
+        테스트
+    </p>
+    <!-- p테그 수정할수있는 명령어 -->
+    <p contenteditable>
+        테스트
+    </p>
+</body>
+</html>
