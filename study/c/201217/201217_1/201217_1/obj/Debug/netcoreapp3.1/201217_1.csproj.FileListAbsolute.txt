@@ -1,0 +1,13 @@
+D:\DG\dgme\study\c\201217\201217_1\201217_1\bin\Debug\netcoreapp3.1\201217_1.exe
+D:\DG\dgme\study\c\201217\201217_1\201217_1\bin\Debug\netcoreapp3.1\201217_1.deps.json
+D:\DG\dgme\study\c\201217\201217_1\201217_1\bin\Debug\netcoreapp3.1\201217_1.runtimeconfig.json
+D:\DG\dgme\study\c\201217\201217_1\201217_1\bin\Debug\netcoreapp3.1\201217_1.runtimeconfig.dev.json
+D:\DG\dgme\study\c\201217\201217_1\201217_1\bin\Debug\netcoreapp3.1\201217_1.dll
+D:\DG\dgme\study\c\201217\201217_1\201217_1\bin\Debug\netcoreapp3.1\201217_1.pdb
+D:\DG\dgme\study\c\201217\201217_1\201217_1\obj\Debug\netcoreapp3.1\201217_1.csprojAssemblyReference.cache
+D:\DG\dgme\study\c\201217\201217_1\201217_1\obj\Debug\netcoreapp3.1\201217_1.AssemblyInfoInputs.cache
+D:\DG\dgme\study\c\201217\201217_1\201217_1\obj\Debug\netcoreapp3.1\201217_1.AssemblyInfo.cs
+D:\DG\dgme\study\c\201217\201217_1\201217_1\obj\Debug\netcoreapp3.1\201217_1.csproj.CoreCompileInputs.cache
+D:\DG\dgme\study\c\201217\201217_1\201217_1\obj\Debug\netcoreapp3.1\201217_1.dll
+D:\DG\dgme\study\c\201217\201217_1\201217_1\obj\Debug\netcoreapp3.1\201217_1.pdb
+D:\DG\dgme\study\c\201217\201217_1\201217_1\obj\Debug\netcoreapp3.1\201217_1.genruntimeconfig.cache
