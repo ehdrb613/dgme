@@ -144,6 +144,35 @@ namespace Algorithm_20201218
                 break;
             }
 
+            Console.WriteLine("8문제 (이동준ver)");
+            int input3 = int.Parse(Console.ReadLine());
+            //패턴정리
+            //벌집안의 수        벌집번호 각 벌집 최대값간의 차이
+            //1                 - 1번 벌집 -
+            //2~7               - 2번 벌집 - 6
+            //8~19              - 3번 벌집 - 12
+            //20~37              - 4번 벌집 - 18
+            //38~61             - 5번 벌집 - 24
+
+            if (input3==1)
+                Console.WriteLine("1번 벌집");
+          
+            else if(input3 <= 7)
+                Console.WriteLine("2번 벌집");
+            else
+            {
+                int tempCount = 1;
+                int sub = 6;
+                while (input3 > 0)
+                {
+                    input3 = input3 - sub;
+                    sub = sub + 6;
+                    tempCount++;
+                    if (input3 <= 1)
+                        break;
+                }
+                Console.WriteLine(tempCount);
+            }
         }
     }
 }
