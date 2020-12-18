@@ -1,0 +1,13 @@
+D:\DG\dgme\study\c\201218\test01\test01\bin\Debug\netcoreapp3.1\test01.exe
+D:\DG\dgme\study\c\201218\test01\test01\bin\Debug\netcoreapp3.1\test01.deps.json
+D:\DG\dgme\study\c\201218\test01\test01\bin\Debug\netcoreapp3.1\test01.runtimeconfig.json
+D:\DG\dgme\study\c\201218\test01\test01\bin\Debug\netcoreapp3.1\test01.runtimeconfig.dev.json
+D:\DG\dgme\study\c\201218\test01\test01\bin\Debug\netcoreapp3.1\test01.dll
+D:\DG\dgme\study\c\201218\test01\test01\bin\Debug\netcoreapp3.1\test01.pdb
+D:\DG\dgme\study\c\201218\test01\test01\obj\Debug\netcoreapp3.1\test01.csprojAssemblyReference.cache
+D:\DG\dgme\study\c\201218\test01\test01\obj\Debug\netcoreapp3.1\test01.AssemblyInfoInputs.cache
+D:\DG\dgme\study\c\201218\test01\test01\obj\Debug\netcoreapp3.1\test01.AssemblyInfo.cs
+D:\DG\dgme\study\c\201218\test01\test01\obj\Debug\netcoreapp3.1\test01.csproj.CoreCompileInputs.cache
+D:\DG\dgme\study\c\201218\test01\test01\obj\Debug\netcoreapp3.1\test01.dll
+D:\DG\dgme\study\c\201218\test01\test01\obj\Debug\netcoreapp3.1\test01.pdb
+D:\DG\dgme\study\c\201218\test01\test01\obj\Debug\netcoreapp3.1\test01.genruntimeconfig.cache
