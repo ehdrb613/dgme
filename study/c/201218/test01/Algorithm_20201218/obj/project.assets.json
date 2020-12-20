@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\KB\\.nuget\\packages\\": {}
+    "C:\\Users\\N02\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DG\\dgme\\study\\c\\201218\\test01\\Algorithm_20201218\\Algorithm_20201218.csproj",
+      "projectUniqueName": "D:\\study\\dgme\\study\\c\\201218\\test01\\Algorithm_20201218\\Algorithm_20201218.csproj",
       "projectName": "Algorithm_20201218",
-      "projectPath": "D:\\DG\\dgme\\study\\c\\201218\\test01\\Algorithm_20201218\\Algorithm_20201218.csproj",
-      "packagesPath": "C:\\Users\\KB\\.nuget\\packages\\",
-      "outputPath": "D:\\DG\\dgme\\study\\c\\201218\\test01\\Algorithm_20201218\\obj\\",
+      "projectPath": "D:\\study\\dgme\\study\\c\\201218\\test01\\Algorithm_20201218\\Algorithm_20201218.csproj",
+      "packagesPath": "C:\\Users\\N02\\.nuget\\packages\\",
+      "outputPath": "D:\\study\\dgme\\study\\c\\201218\\test01\\Algorithm_20201218\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\KB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\N02\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
