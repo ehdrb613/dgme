@@ -190,6 +190,8 @@
             width: 100vw;
             margin: 0;
             padding: 0;
+            outline:none; 
+            -webkit-appearance:none;
         
         }
 
@@ -212,7 +214,7 @@
         header {
             position: relative;
             max-height:30vh;
-            font-size: 40px;
+           
             background-color: white;
             padding:20px;  
         }
@@ -404,7 +406,7 @@
                 position: relative;
                 height: 20vw;
                 font-size: 4vw;
-                min-height: 100px;
+                min-height: 110px;
                 max-height:20vh;
                 padding:20px;
                 
@@ -538,9 +540,30 @@
 
             #job {
 
-                margin-top: -300px;
+                margin-top: -200px;
             }
         }
+
+        @media screen and (min-width:1400px)
+            {
+                header{
+                    max-height:20vh;
+                    min-height:120px;
+                }
+                #logo1{
+                
+                width: 10vw;
+            }
+                #logo2{
+                
+                width: 20vw;
+            }
+                header h3{
+                font-size: 30px;
+                height: 200px;
+                right:-30vw;
+                }
+            }
     </style>
 </head>
 
