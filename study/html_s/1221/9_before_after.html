@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            /* p태그가 늘어날 때 마다 증가하는 변수 */
+            /* rint 는 아무 글자난 써도 됨(변수선언느낌) */
+            counter-increment : rint;
+
+        }
+        /* p태그 시작전에 카운터 변수 삽입 */
+        p::before{
+            content:counter(rint)"."
+        }
+        /* p태그 끝에다가 page 번호 삽입 */
+        p::after{
+            content:" - " attr(data-page) "page"
+        }
+        p::first-letter{
+            font-size:3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p data-page="52">Lorem, ipsum dolor.</p>
+    <p data-page="273">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima.</p>
+</body>
+</html>
