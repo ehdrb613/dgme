@@ -200,9 +200,9 @@
             background-position: center;
             text-align: center;
             font-family: 'Nanum Gothic';
-            
+            height: auto;            
         }
-
+    
         div {
             text-align: center;
             display: inline-block;
@@ -211,26 +211,34 @@
 
         header {
             position: relative;
-            height: 250px;
+            max-height:30vh;
             font-size: 40px;
             background-color: white;
-            padding:20px;
+            padding:20px;  
         }
-        header img{
+        header div:nth-child(2){
+            display: inline;
+        }
+        
+        #logo1{
+            display: inline;
             float: left;
-            width: auto;
+            width: 15vw;
         }
-
-
-
-        h1 {
-            color: white;
+        #logo2{
+            display: inline;
+            float: left;
+            width: 25vw;
         }
-
-        section {
-            font-size: 0;
+        header h3{
+            display: inline;
+            right:-20vw;
+            position: relative;
+            font-size: 3vw;
         }
-
+        
+       
+        
 
         .top_menu1 {
             position: relative;
@@ -252,7 +260,6 @@
             padding: 20px;
         }
 
-
         /* 링크 css*/
         a:link,
         a:visited {
@@ -268,15 +275,53 @@
             color: black;
         }
 
+        .nav2{
+            z-index: 4;
+            width: auto;
+            position: fixed;
+            right: 50px;
+            bottom:100px;
+            border-radius: 15px;
+            border: 2px white solid;
+            background-color: cornflowerblue;
+           
+        }
 
+        .nav2 a{
+            
+            width:8vw;
+            min-width:50px;
+            height:35px;
+            color: white;
+            font-size: 100%;
+            margin:0;
+            padding:0;
+            border-radius: 15px;
+            padding-top:10px;
+            opacity:1;
+        }
+        .nav2 a:hover,.nav2 a:active{
+            color:black;
+        }
+
+        .nav2 a:link,
+        .nav2 a:visited {
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        /*
         .c1 {
             position: relative;
             float: left;
             width: 100vw;
-            /*background-color: rgb(201, 200, 200);*/
+            background-color: rgb(201, 200, 200);
 
         }
-
+        */
+        
         #n0 {
             position: relative;
             z-index: 2;
@@ -353,22 +398,46 @@
         /*모바일,테블릿 사이즈일때*/
         @media screen and (max-width:800px) {
 
+            
 
             header {
+                position: relative;
                 height: 20vw;
                 font-size: 4vw;
+                min-height: 100px;
+                max-height:20vh;
+                padding:20px;
+                
             }
 
             header>div {
                 padding: 0;
                 padding-top: 5vw;
             }
+            #logo1{
+                
+                float: left;
+                min-width: 100px;
+                width: 15vw;
+            
+            }
+            #logo2{
+                
+                float: left;
+                min-width: 200px;
+                width: 25vw;
+            }
+            header h3{
+                display: inline-block;
+                text-align: center;
+                padding-right: -15vw;
+                padding-top: 10px;
 
-            h1 {
-                color: white;
+                font-size: 4vw;
+
             }
 
-
+        
 
             div {
                 display: inline-block;
@@ -384,15 +453,27 @@
 
             .top_btn1 {
                 float: left;
-                background-color: rgba(46, 43, 43, 0.5);
+                background-color:rgba(44, 128, 255, 0.5);
                 /* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);*/
                 color: rgb(255, 255, 255);
                 text-align: center;
                 vertical-align: middle;
-                font-size: 100%;
-                width: 25vw;
+                font-size: 90%;
+                width: 50vw;
                 padding: 20px;
-                display: none !important;
+                /*display: none !important; 없애기*/
+            }
+
+            .nav2{
+           
+            right: 25px;
+            bottom:50px;
+            border-radius: 15px;
+            opacity:0.5;
+            
+            }
+            .nav2 a{
+                color:rgba(255,255,255,1);
             }
 
             #n0 {
@@ -418,6 +499,8 @@
             #skill span {
                 padding-top: 20px;
                 padding-left: 20px;
+                font-size: 20px;
+                
             }
 
             #skill img:nth-child(2) {
@@ -464,23 +547,26 @@
 <body>
     <header>
         <span>
-            <div><img src="IMG/yj_logo.png" alt=""></div>
-            <div><img src="IMG/LOGO.png" alt=""></div>
+            <div><img id="logo1" src="IMG/yj_logo.png" alt=""></div>
+            <div><img id="logo2" src="IMG/LOGO.png" alt=""></div>
+            <h3>통합응용SW개발</h3>
         </span>
-        <span>통합응용SW개발</span>
+       
     </header>
 
 
 
     <nav class="top_menu1">
 
-        <a href="#c1" class="top_btn1">HOME</a>
+        <a href="http://www.kb.or.kr/" class="top_btn1">HOME</a>
         <a href="#n1" class="top_btn1">소개</a>
         <a href="#n2" class="top_btn1">커리큘럼</a>
         <a href="#n3" class="top_btn1">취업분야</a>
     </nav>
 
-
+    <nav class="nav2">
+         <a href="#logo1" class="top_btn1">위로</a>
+    </nav>
 
     <section class="c1">
         <div id="n0">
@@ -506,14 +592,7 @@
         </div>
     </section>
    
-    <footer>
-        <p>
-            대표자 : 곽승호 dron512@naver.com Tel : 053-751-7755 Fax : 053-751-7761 개인정보취급책임자 : 안형락 19990509@hanmail.net Tel : 053-751-7755<br>
-            사업자번호 : 502-91-09709 통신판매업신고번호 : 동구청 제2-844호<br>
-            412-28 대구광역시 동구 동부로 121 (신천동,경북산업직업전문학교)<br>
-            copyright © 대구국비지원 무료교육센터 4차산업전문교육 경북산업직업전문학교. All Rights Reserved.
-        </p>
-    </footer>
+
     
 </body>
 
