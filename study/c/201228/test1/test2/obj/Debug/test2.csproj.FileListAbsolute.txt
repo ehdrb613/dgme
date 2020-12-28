@@ -1,0 +1,7 @@
+D:\DG\dgme\study\c\201228\test1\test2\bin\Debug\test2.exe.config
+D:\DG\dgme\study\c\201228\test1\test2\bin\Debug\test2.exe
+D:\DG\dgme\study\c\201228\test1\test2\bin\Debug\test2.pdb
+D:\DG\dgme\study\c\201228\test1\test2\obj\Debug\test2.csprojAssemblyReference.cache
+D:\DG\dgme\study\c\201228\test1\test2\obj\Debug\test2.csproj.CoreCompileInputs.cache
+D:\DG\dgme\study\c\201228\test1\test2\obj\Debug\test2.exe
+D:\DG\dgme\study\c\201228\test1\test2\obj\Debug\test2.pdb
