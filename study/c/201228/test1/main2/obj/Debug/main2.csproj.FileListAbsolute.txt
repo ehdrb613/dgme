@@ -1,0 +1,6 @@
+D:\DG\dgme\study\c\201228\test1\main2\bin\Debug\main2.exe.config
+D:\DG\dgme\study\c\201228\test1\main2\bin\Debug\main2.exe
+D:\DG\dgme\study\c\201228\test1\main2\bin\Debug\main2.pdb
+D:\DG\dgme\study\c\201228\test1\main2\obj\Debug\main2.csproj.CoreCompileInputs.cache
+D:\DG\dgme\study\c\201228\test1\main2\obj\Debug\main2.exe
+D:\DG\dgme\study\c\201228\test1\main2\obj\Debug\main2.pdb

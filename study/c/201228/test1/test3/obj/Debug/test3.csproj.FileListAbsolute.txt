@@ -4,3 +4,4 @@ D:\DG\dgme\study\c\201228\test1\test3\bin\Debug\test3.pdb
 D:\DG\dgme\study\c\201228\test1\test3\obj\Debug\test3.csproj.CoreCompileInputs.cache
 D:\DG\dgme\study\c\201228\test1\test3\obj\Debug\test3.exe
 D:\DG\dgme\study\c\201228\test1\test3\obj\Debug\test3.pdb
+D:\DG\dgme\study\c\201228\test1\test3\obj\Debug\test3.csprojAssemblyReference.cache
