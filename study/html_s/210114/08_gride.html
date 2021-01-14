@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+        display:grid;
+        /* 2대8 */
+        grid-template-columns: 2fr 8fr;
+        /* 위쪽은 500아래는  1000px*/
+        grid-template-rows: 500px 1000px;
+        /* gutter랑 똑같은거 */
+        gap:10px;
+        }
+
+        .container>div{
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>header</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, repellendus?</p>
+        </div>
+        <div class="aside">
+            <h1>aside</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, repellendus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum veniam assumenda molestiae! Quas architecto dicta sapiente ea? Nesciunt omnis, rerum ad non sapiente voluptatibus accusamus iste fugit blanditiis? Reprehenderit dolorum facere maxime natus optio! Suscipit ex optio odit voluptas inventore maxime voluptatem, mollitia atque molestias sapiente debitis autem perferendis. Minus, aliquam at! Cum possimus a ea impedit cupiditate? Repellendus incidunt sit, aperiam quidem quia velit illum hic dolorum rerum dignissimos, aspernatur, eos quaerat quam harum quae fuga dolore voluptates possimus iusto asperiores nemo minima facere. Laboriosam dignissimos voluptatum facere et earum dicta suscipit numquam ut quas autem. Officia, minus voluptatum.</p>
+        </div>
+        <div class="section">
+            <h1>section</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, repellendus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum veniam assumenda molestiae! Quas architecto dicta sapiente ea? Nesciunt omnis, rerum ad non sapiente voluptatibus accusamus iste fugit blanditiis? Reprehenderit dolorum facere maxime natus optio! Suscipit ex optio odit voluptas inventore maxime voluptatem, mollitia atque molestias sapiente debitis autem perferendis. Minus, aliquam at! Cum possimus a ea impedit cupiditate? Repellendus incidunt sit, aperiam quidem quia velit illum hic dolorum rerum dignissimos, aspernatur, eos quaerat quam harum quae fuga dolore voluptates possimus iusto asperiores nemo minima facere. Laboriosam dignissimos voluptatum facere et earum dicta suscipit numquam ut quas autem. Officia, minus voluptatum.</p>
+        </div>
+        <div class="footer">
+            <h1>footer</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, repellendus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum veniam assumenda molestiae! Quas architecto dicta sapiente ea? Nesciunt omnis, rerum ad non sapiente voluptatibus accusamus iste fugit blanditiis? Reprehenderit dolorum facere maxime natus optio! Suscipit ex optio odit voluptas inventore maxime voluptatem, mollitia atque molestias sapiente debitis autem perferendis. Minus, aliquam at! Cum possimus a ea impedit cupiditate? Repellendus incidunt sit, aperiam quidem quia velit illum hic dolorum rerum dignissimos, aspernatur, eos quaerat quam harum quae fuga dolore voluptates possimus iusto asperiores nemo minima facere. Laboriosam dignissimos voluptatum facere et earum dicta suscipit numquam ut quas autem. Officia, minus voluptatum.</p>
+        </div>
+    </div>
+</body>
+</html>

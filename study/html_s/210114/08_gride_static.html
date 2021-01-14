@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 960px;
+            margin: 0 auto;
+            display:grid;
+            /* 2대8 */
+            grid-template-columns:1fr 1fr 1fr;
+            /* 위쪽은 500아래는  1000px*/
+            grid-template-rows: 200px 1fr 200px;
+            /* gutter랑 똑같은거 */
+            gap:10px;
+        }
+
+        .container>div{
+            background-color: antiquewhite;
+        }
+
+        .header{
+            grid-row: 1/2;
+            grid-column:1/4;
+        }
+        .aside{
+            grid-row-start:2;
+            grid-row-end: 3;
+            grid-column-start:1;
+            grid-column-end:2;
+        }
+        .section{
+            grid-row: 2/3;
+            grid-column:2/4;
+        }
+        .footer{
+            grid-row: 3/4;
+            grid-column: 1/4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>header</h1>
+           
+        </div>
+        <div class="aside">
+            <h1>aside</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sequi debitis hic nemo dolor vel amet eligendi iusto ducimus. Cum vitae fuga temporibus quos. Reprehenderit repellat, inventore officia quis tenetur ab labore facere ratione sit est obcaecati ad aliquam dolorem ducimus adipisci aliquid. Ipsa ut aliquid, fugiat autem dolor eos?</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, culpa id. Mollitia, exercitationem vitae! Nostrum delectus adipisci facere cum? Inventore voluptatibus sunt incidunt provident quisquam ipsum quia quasi facilis eaque?</p>
+        </div>
+        <div class="section">
+            <h1>section</h1>
+            
+        </div>
+        <div class="footer">
+            <h1>footer</h1>
+            
+        </div>
+    </div>
+</body>
+</html>
