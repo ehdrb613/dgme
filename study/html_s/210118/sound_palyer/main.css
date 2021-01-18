@@ -9,7 +9,10 @@
         }
         .app{
             height: 100vh;
+            /* vh 백분율 */
+            /* shvdlrk 900px 일때 1vh는 9px을 의미 */
             display: flex;
+            /* 수평 정렬시 사용하는것 */
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
@@ -21,7 +24,7 @@
         }
         header p {
             font-size: 16px;
-            color: rgb(58, 58, 58);
+            color: rgb(211, 36, 36);
         }
         .pads{
             background: lightblue;
@@ -32,28 +35,30 @@
             height: 100px;
             width: 100px;
             flex: 1;
+            /* pads안에 있는 자식들에게 동일한 너비를 주겠다. */
             cursor: pointer;
+            /* 마우스 모양 손가락 */
         }
         .pads > div:hover {
-            background: lightsteelblue;
+            background: rgb(218, 234, 255);
         }
         .pad1 {
-            background: lightseagreen;
+            background: rgb(43, 245, 235);
         }
         .pad2 {
-            background: rgb(178, 32, 112);
+            background: rgb(248, 48, 158);
         }
         .pad3 {
-            background: rgb(214, 141, 30);
+            background: rgb(253, 172, 51);
         }
         .pad4 {
-            background: rgb(64, 55, 196);
+            background: rgb(73, 60, 252);
         }
         .pad5 {
-            background: rgb(4, 184, 13);
+            background: rgb(29, 252, 40);
         }
         .pad6 {
-            background: rgb(216, 55, 189);
+            background: rgb(247, 62, 216);
         }
 
         @keyframes jump {
