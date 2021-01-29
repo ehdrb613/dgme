@@ -1,0 +1,9 @@
+D:\DG\dgme\study\c\210129\test01\test01\bin\Debug\test01.exe
+D:\DG\dgme\study\c\210129\test01\test01\bin\Debug\test01.pdb
+D:\DG\dgme\study\c\210129\test01\test01\obj\Debug\test01.csprojAssemblyReference.cache
+D:\DG\dgme\study\c\210129\test01\test01\obj\Debug\test01.Form1.resources
+D:\DG\dgme\study\c\210129\test01\test01\obj\Debug\test01.Properties.Resources.resources
+D:\DG\dgme\study\c\210129\test01\test01\obj\Debug\test01.csproj.GenerateResource.cache
+D:\DG\dgme\study\c\210129\test01\test01\obj\Debug\test01.csproj.CoreCompileInputs.cache
+D:\DG\dgme\study\c\210129\test01\test01\obj\Debug\test01.exe
+D:\DG\dgme\study\c\210129\test01\test01\obj\Debug\test01.pdb
