@@ -1,0 +1,9 @@
+D:\DG\dgme\study\c\210201\button1\button1\bin\Debug\button1.exe
+D:\DG\dgme\study\c\210201\button1\button1\bin\Debug\button1.pdb
+D:\DG\dgme\study\c\210201\button1\button1\obj\Debug\button1.csprojAssemblyReference.cache
+D:\DG\dgme\study\c\210201\button1\button1\obj\Debug\button1.Form1.resources
+D:\DG\dgme\study\c\210201\button1\button1\obj\Debug\button1.Properties.Resources.resources
+D:\DG\dgme\study\c\210201\button1\button1\obj\Debug\button1.csproj.GenerateResource.cache
+D:\DG\dgme\study\c\210201\button1\button1\obj\Debug\button1.csproj.CoreCompileInputs.cache
+D:\DG\dgme\study\c\210201\button1\button1\obj\Debug\button1.exe
+D:\DG\dgme\study\c\210201\button1\button1\obj\Debug\button1.pdb

@@ -1,0 +1,9 @@
+D:\DG\dgme\study\c\210201\button1\listbox1\bin\Debug\listbox1.exe
+D:\DG\dgme\study\c\210201\button1\listbox1\bin\Debug\listbox1.pdb
+D:\DG\dgme\study\c\210201\button1\listbox1\obj\Debug\listbox1.Form1.resources
+D:\DG\dgme\study\c\210201\button1\listbox1\obj\Debug\listbox1.Properties.Resources.resources
+D:\DG\dgme\study\c\210201\button1\listbox1\obj\Debug\listbox1.csproj.GenerateResource.cache
+D:\DG\dgme\study\c\210201\button1\listbox1\obj\Debug\listbox1.csproj.CoreCompileInputs.cache
+D:\DG\dgme\study\c\210201\button1\listbox1\obj\Debug\listbox1.exe
+D:\DG\dgme\study\c\210201\button1\listbox1\obj\Debug\listbox1.pdb
+D:\DG\dgme\study\c\210201\button1\listbox1\obj\Debug\listbox1.csprojAssemblyReference.cache
