@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<style>
+    *{
+        margin:0;
+        padding:0;
+    }
+    #aa{
+        background-color: brown;
+        height:300px;
+        width:100%;
+        display: block;
+    }
+</style>
+<body>
+    <button id="sbtn">stop</button>
+    <div id="aa">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque modi temporibus perspiciatis sequi tempore accusamus laborum incidunt reprehenderit? Ipsum temporibus, laborum nulla eius consequatur deleniti doloribus? Nisi laudantium libero facilis sint, velit itaque nesciunt qui ab consectetur recusandae fuga accusantium et minus nemo, illum nihil aliquam, quasi alias obcaecati doloremque ducimus eligendi animi. Nulla necessitatibus obcaecati, animi iste soluta adipisci minus minima magnam consequatur sed laudantium nesciunt ducimus ab corrupti veritatis libero enim quisquam. Quas amet nihil iure excepturi sint voluptatem inventore incidunt porro voluptate enim! Incidunt illum odio sit voluptatibus laudantium praesentium, debitis sapiente! Et ipsum laboriosam pariatur ad.</p>
+    </div>
+</body>
+</html>
+<script>
+    $("#aa").click(function(){
+        $("#aa").slideUp(5000);
+    })
+    $("#sbtn").click(function(){
+        $("#aa").stop();
+    })
+</script>
