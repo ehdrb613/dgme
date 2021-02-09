@@ -1,0 +1,7 @@
+D:\DG\dgme\study\c\210208class\210208class\210208class\bin\Debug\210208class.exe.config
+D:\DG\dgme\study\c\210208class\210208class\210208class\bin\Debug\210208class.exe
+D:\DG\dgme\study\c\210208class\210208class\210208class\bin\Debug\210208class.pdb
+D:\DG\dgme\study\c\210208class\210208class\210208class\obj\Debug\class210208.csprojAssemblyReference.cache
+D:\DG\dgme\study\c\210208class\210208class\210208class\obj\Debug\class210208.csproj.CoreCompileInputs.cache
+D:\DG\dgme\study\c\210208class\210208class\210208class\obj\Debug\210208class.exe
+D:\DG\dgme\study\c\210208class\210208class\210208class\obj\Debug\210208class.pdb
