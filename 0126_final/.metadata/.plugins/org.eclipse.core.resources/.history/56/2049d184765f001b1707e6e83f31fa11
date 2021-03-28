@@ -1,0 +1,45 @@
+
+public class Student {
+	private String name;
+	private String num;
+	private String sug;
+	private String[][] student = null;
+	public Student(String name, String num, String sug) {
+		super();
+		this.name = name;
+		this.num = num;
+		this.sug = sug;
+		
+		int a = 0;
+		
+		
+		
+		
+		
+		student[a][0] = name;
+		student[a][1] = num;
+		student[a][2] = sug;
+		
+		a++;
+		
+		
+	}
+	
+	public void ShowView() {
+		
+		for (int i = 0; i < student.length; i++) {
+			for (int j = 0; j < student[i].length; j++) {
+				System.out.print(student[i][j]+"\t");
+			}
+			System.out.println();
+		}
+	}
+	
+	
+	
+	
+		
+	
+	
+	
+}

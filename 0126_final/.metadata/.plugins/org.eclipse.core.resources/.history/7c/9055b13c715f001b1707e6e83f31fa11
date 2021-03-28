@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class Ddi {
+
+	public static void main(String[] args) {
+		System.out.print("년도 입력 : ");
+		Scanner s = new Scanner(System.in);
+	}
+
+}

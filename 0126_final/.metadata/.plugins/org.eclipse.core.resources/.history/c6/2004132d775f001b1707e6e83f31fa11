@@ -1,0 +1,12 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Student a;
+		a = new Student("이동준","2009038033","남");
+		a = new Student("이제영","2007012034","여");
+		a = new Student("이동준","2019038033","남");
+		a.ShowView();
+	}
+
+}

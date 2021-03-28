@@ -15,7 +15,9 @@
             margin: 0;
             padding: 0;
         }
-
+        html{
+            scroll-behavior: smooth;
+        }
         body {
             font-family: sans-serif;
             background-image: url("sunset.jpg");
@@ -351,8 +353,8 @@
     </header>
     <div id="content">
         <section id="main_section">
-            <article class="main_article">
-                <img src="취영롱1.jpg" alt="">
+            <article class="main_article" id="one">
+                <img  src="취영롱1.jpg" alt="">
                 <div>
                     <h3>취영롱</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis officiis culpa, atque
@@ -366,8 +368,8 @@
                         repudiandae laborum eligendi veritatis quidem neque provident?</p>
                 </div>
             </article>
-            <article class="main_article">
-                <img src="bad.jpg" alt="">
+            <article class="main_article" id ="two">
+                <img  src="bad.jpg" alt="">
                 <div>
                     <h3>나쁜녀석들:더무비</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis officiis culpa, atque
@@ -381,7 +383,7 @@
                         repudiandae laborum eligendi veritatis quidem neque provident?</p>
                 </div>
             </article>
-            <article class="main_article">
+            <article class="main_article" id="three">
                 <img src="0MHz.jpg" alt="">
                 <div>
                     <h3>0.0MHz</h3>
@@ -406,23 +408,23 @@
                 <div class="tab_item">
                     <ul>
                         <li class="item">
-                            <a href="#">
+                            <a href="#two">
                                 <div class="thumbnail">
                                     <img src="http://placehold.it/45x45" alt="">
                                 </div>
                                 <div class="description">
-                                    <strong>HTML5 Canvas</strong>
+                                    <strong>나쁜녀석들:더무비</strong>
                                     <p>2012-03-15</p>
                                 </div>
                             </a>
                         </li>
                         <li class="item">
-                            <a href="#">
+                            <a href="#three">
                                 <div class="thumbnail">
                                     <img src="http://placehold.it/45x45" alt="">
                                 </div>
                                 <div class="description">
-                                    <strong>HTML5 Audio</strong>
+                                    <strong>O.OMHz</strong>
                                     <p>2012-03-15</p>
                                 </div>
                             </a>
@@ -455,12 +457,12 @@
                 <div class="tab_item">
                     <ul>
                         <li class="item">
-                            <a href="#">
+                            <a href="#one">
                                 <div class="thumbnail">
                                     <img src="http://placehold.it/45x45" alt="">
                                 </div>
                                 <div class="description">
-                                    <strong>CSS3 Transition</strong>
+                                    <strong>취영롱</strong>
                                     <p>2012-03-15</p>
                                 </div>
                             </a>
