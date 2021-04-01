@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Text {
+
+	public static void main(String[] args) {
+		char[] a = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x'};
+		char[] han = {'ㄱ','ㄴ','ㄷ','ㄹ','ㅁ','ㅂ','ㅅ','ㅇ','ㅈ','ㅊ','ㅋ','ㅌ','ㅍ','ㅎ','ㅏ','ㅑ','ㅓ','ㅕ','ㅗ','ㅛ','ㅜ','ㅠ','ㅡ','ㅣ'}; 
+		
+		Scanner s = new Scanner(System.in);
+		String input = s.next();
+		char text;
+		for (int i = 0; i < input.length(); i++) {
+			text = input.charAt(i);
+			for (int j = 0; j < a.length; j++) {
+				if(a[j] == text) {
+					System.out.print(han[j]);
+				}
+			}
+			
+		}
+		
+		
+	}
+
+}

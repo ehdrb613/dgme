@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Q5 {
+
+	public static void main(String[] args) {
+		
+		Scanner s = new Scanner(System.in);
+		System.out.println("입력: ");
+		String input = s.next();
+		char t;
+		
+		for (int i = 0; i < input.length(); i++) {
+			int count =0;
+			t = input.charAt(i);
+			for (int j = 0; j < input.length(); j++) {
+				if(i!=j) {
+					if(t==input.charAt(j)) {
+						count++;
+					}
+				}
+			}
+			System.out.printf("%c는 %d개 입니다.\n",t,count);
+		}
+		
+	}
+
+}
