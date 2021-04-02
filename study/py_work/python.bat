@@ -1,0 +1,1 @@
+python d:/DG/dgme/study/py_work/ex07.py
